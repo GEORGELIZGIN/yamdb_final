@@ -23,7 +23,10 @@ jobs:
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         # установка зависимостей
         pip install -r requirements.txt 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c6284e852fa212919ebca2cd4db7ab2662d18077
     - name: Test with flake8 and django tests
       run: |
         # запуск проверки проекта по flake8
@@ -77,4 +80,8 @@ jobs:
           sudo docker pull <имя-пользователя>/<имя-репозитория>
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
+<<<<<<< HEAD
           sudo docker run --rm -d -p 5000:5000 <имя-пользователя>/<имя-репозитория> 
+=======
+          sudo docker run --rm -d -p 5000:5000 <имя-пользователя>/<имя-репозитория>
+>>>>>>> c6284e852fa212919ebca2cd4db7ab2662d18077
