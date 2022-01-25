@@ -9,7 +9,7 @@ USER - имя пользователя
 SSH_KEY - приватный ключ для доступа к вашему серверу
 
 DOCKER_USERNAME и DOCKER_PASSWORD - ваше имя и пароль от аккаунта dockerHub
-DOCKER_REPOS - ваш репозиторий на DockerHub
+
 если хотите получать уведомления на телеграмм аккаунт от GitHub укажите:
 TELEGRAM_TO - ваш id аккаунта Telegram
 
