@@ -46,7 +46,7 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: geo09/repos:latest
+          tags: ${{ DOCKER_REPOS }}
 
   deploy:
     if: ${{ github.ref }} == 'refs/heads/master'
